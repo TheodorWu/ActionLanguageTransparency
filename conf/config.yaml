@@ -1,0 +1,9 @@
+defaults:
+  - model: dev
+  - model/agent: dev
+  - environment: dev
+  - training: dev
+  - wandb: default
+  - _self_
+
+stage: dev

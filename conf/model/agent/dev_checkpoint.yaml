@@ -1,0 +1,9 @@
+id: vlm
+kwargs:
+  thought_generator: vqa
+  generator_args:
+    kwargs:
+      blip_task: vqa
+      backbone: blip
+      checkpoint: test.pt
+  out_features: 8

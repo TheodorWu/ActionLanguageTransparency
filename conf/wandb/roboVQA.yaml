@@ -1,0 +1,3 @@
+project: RoboVQA
+entity: wulff
+log_frequency: 1000

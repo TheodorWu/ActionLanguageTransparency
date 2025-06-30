@@ -1,0 +1,66 @@
+id: lhmanip
+img_source: image
+action_discretizer:
+  ranges: 
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  num_bins: 10
+state_discretizer:
+  ranges:
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+# 10
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+# 20
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  num_bins: 10
+kwargs:
+  tasks:
+    # - clean_the_pan
+    # - cook_the_capsicum_and_place_it_on_a_plate
+    # - cook_the_vegetables
+    # - dry_the_plate
+    - match_the_cups_with_the_appropriate_bowls
+    # - hide_the_teddy_bear_in_the_red_bowl
+    # - place_the_bowl_on_the_plate_and_the_cup_in_the_bowl_matching_the_color
+    # - place_the_bowls_on_the_appropriate_plate
+    # - prepare_two_cups_of_tea
+    # - put_a_highlighter_on_each_book
+    # - put_the_ball_in_the_red_pot
+    # - roll_the_dices_in_the_bowl
+    # - serve_the_vegetables_in_different_plates
+    - set_the_table
+    # - sort_the_balls_from_left_to_right_in_order_of_size
+    # - stack_green_blocks
+    # - stack_the_bowls
+    # - stack_the_cups
+    # - throw_away_the_rubbish_paper
+    # - water_the_pot_plant_and_put_the_can_on_the_plate
+
+    # rsync -avz sort_the_balls_from_left_to_right_in_order_of_size.zip stack_green_blocks.zip stack_the_bowls.zip stack_the_cups.zip k33166tw@csf3.itservices.manchester.ac.uk:~/scratch/experiments/ChainOfThoughtAgentPT/data/long_horizon_manipulation_dataset
+    # rsync -avz throw_away_the_rubbish_paper.zip water_the_pot_plant_and_put_the_can_on_the_plate.zip k33166tw@csf3.itservices.manchester.ac.uk:~/scratch/experiments/ChainOfThoughtAgentPT/data/long_horizon_manipulation_dataset

@@ -1,0 +1,11 @@
+active: True
+args:
+  r: 16
+  target_modules:
+    - "q_proj"
+    - "v_proj"
+    - "self_attn.projection"
+    - "attention.query"
+    - "attention.value"
+  lora_alpha: 32
+  lora_dropout: 0.05

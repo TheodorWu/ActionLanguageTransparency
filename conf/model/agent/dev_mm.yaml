@@ -1,0 +1,4 @@
+id: test_multimodal
+kwargs:
+  num_cells: 64
+  out_features: 8

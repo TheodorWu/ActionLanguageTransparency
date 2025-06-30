@@ -1,0 +1,5 @@
+id: vqa
+single_image: True
+kwargs:
+  # blip_task: vqa
+  backbone: git

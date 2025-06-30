@@ -1,0 +1,19 @@
+defaults:
+  - optimizer: adam_8bit
+  - peft: inactive
+
+vqa:
+  active: True
+  epochs: 5
+  batch_size: 8
+  optimizer_step_freq: 32
+  shuffle_buffer_size: 16
+  prefetch_buffer_size: 1
+  loss_function: builtin
+  data_dir: freeform_planning
+  use_context: True
+  clip_eval: False
+  clip_checkpoint: None
+
+device:
+  gpu: True

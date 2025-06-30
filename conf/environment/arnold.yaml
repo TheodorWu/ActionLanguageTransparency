@@ -1,0 +1,22 @@
+id: arnold
+img_source: image
+action_discretizer:
+  ranges: 
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  num_bins: 10
+state_discretizer:
+  ranges:
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  - [-1, 1]
+  num_bins: 10
+kwargs:
+  task: transfer_water

@@ -1,0 +1,6 @@
+id: vqa
+single_image: True
+kwargs:
+  freeze_vision_encoder: True
+  freeze_llm: True
+  backbone: instructblip

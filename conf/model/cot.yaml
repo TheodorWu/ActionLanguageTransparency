@@ -1,0 +1,6 @@
+id: cot
+single_image: False
+kwargs:
+  blip_task: vqa
+  backbone: blip
+  thought_pattern: "Think step by step:"

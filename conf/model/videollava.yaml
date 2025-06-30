@@ -1,0 +1,8 @@
+id: vqa
+single_image: False
+num_images: 8
+prompt_template: "USER: <video><question> ASSISTANT:"
+answer_template: "USER: <video><question> ASSISTANT: <answer>"
+kwargs:
+  backbone: video_llava
+  freeze_vision_encoder: True

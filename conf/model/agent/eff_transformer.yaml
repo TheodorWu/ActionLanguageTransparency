@@ -1,0 +1,8 @@
+id: efficient_transformer
+kwargs:
+  d_model: 512
+  nhead: 8
+  dim_feedforward: 64
+  transformer_layers: 3
+  dropout: 0.1
+  out_features: 8

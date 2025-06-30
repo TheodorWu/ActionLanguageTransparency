@@ -1,0 +1,12 @@
+id: purevlm
+single_image: True
+# prompt_template: "answer en [state] <state> [state] Immediate next action?"
+prompt_template: "answer en [state] <state> [state] <question> Immediate next step and action?" # TODO: allow multiple prompts
+answer_template: "<answer>"
+kwargs:
+  backbone: pali_gemma
+  num_action_tokens: 50
+  # blip_task: vqa
+  freeze_vision_encoder: False
+  freeze_llm: False
+  # checkpoint: vocal-sweep-1-vqa.pt

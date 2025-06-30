@@ -1,0 +1,14 @@
+defaults:
+  - optimizer: adam
+  - peft: inactive
+
+clip:
+  active: True
+  epochs: 5
+  batch_size: 64
+  shuffle_buffer_size: 256
+  data_dir: freeform_planning
+  use_context: True
+
+device:
+  gpu: True

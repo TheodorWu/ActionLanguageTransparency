@@ -1,0 +1,21 @@
+id: language_table
+img_source: image
+target: action_only_string # action_string action_only_string
+extra_questions: true
+action_first: true
+action_discretizer:
+  ranges: 
+  - [-0.05, 0.05]
+  - [-0.05, 0.05]
+  num_bins: 50
+state_discretizer:
+  ranges:
+  - [-1, 1]
+  - [-1, 1]
+  num_bins: 50
+kwargs:
+  frames_per_episode: 3
+  buffer_size: 4
+  subfiles:
+    - part1
+    - part2

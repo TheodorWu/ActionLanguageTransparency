@@ -1,0 +1,24 @@
+defaults:
+  - optimizer: adam_8bit
+  - peft: inactive
+
+bc:
+  active: True
+  epochs: 3
+  batch_size: 8
+  optimizer_step_freq: 32
+  shuffle_buffer_size: 32
+  loss_function: builtin
+  # loss_function_kwargs:
+  #   action_loss: MSE
+  #   sentence_loss: CrossEntropy
+  #   alpha: 0.5
+  clip_eval: False
+  clip_checkpoint: fresh-snowball-80-clip.pt
+  copy_each_epoch: False
+  stop_train_after: 2e4
+  stop_val_after: 2e3
+  stop_test_after: 1e3
+
+device:
+  gpu: True

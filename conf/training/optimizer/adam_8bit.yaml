@@ -1,0 +1,9 @@
+name: adam_8bit
+optimizer_params:
+  lr: 0.00001
+  betas: 
+  - 0.9
+  - 0.999
+  eps: 1e-06
+  amsgrad: False
+  weight_decay: 0

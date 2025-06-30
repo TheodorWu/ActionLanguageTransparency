@@ -1,0 +1,7 @@
+id: vqa
+single_image: True
+prompt_template: "answer en <question>"
+answer_template: "answer en <question>\n<answer>"
+kwargs:
+  backbone: pali_gemma
+  checkpoint: test-vqa.pt

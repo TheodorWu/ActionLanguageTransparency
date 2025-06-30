@@ -1,0 +1,7 @@
+id: vqa
+single_image: True
+prompt_template: "answer en <question>"
+answer_template: "<answer>"
+kwargs:
+  backbone: pali_gemma
+  freeze_vision_encoder: False

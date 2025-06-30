@@ -1,0 +1,18 @@
+id: vlm
+kwargs:
+  thought_generator: vqa
+  generator_args:
+    kwargs:
+      # blip_task: vqa
+      # backbone: blip
+      backbone: blip2
+      freeze_vision_encoder: True
+      freeze_llm: True
+      # checkpoint:
+  out_features: 8
+  policy_layers:
+    - linear_projection
+    - transformer
+  output_layer: linear
+  policy_dim: 512
+  freeze_thought_generator: False

@@ -1,0 +1,6 @@
+id: efficient_net
+kwargs:
+  d_text: 48
+  d_img: 48
+  d_state: 16
+  out_features: 8

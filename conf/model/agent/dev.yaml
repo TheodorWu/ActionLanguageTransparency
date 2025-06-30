@@ -1,0 +1,11 @@
+id: purevlm
+single_image: True
+prompt_template: "answer en <question>. Immediate next step and action?"
+answer_template: "<answer>"
+kwargs:
+  backbone: pali_gemma_bfloat16
+  num_action_tokens: 50
+  # blip_task: vqa
+  freeze_vision_encoder: True
+  freeze_llm: False
+  # checkpoint: vocal-sweep-1-vqa.pt
