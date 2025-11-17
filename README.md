@@ -4,13 +4,14 @@ Code accompanying the paper *Joint Action Language Modelling for Transparent Pol
 
 If using parts of the codebase please cite:
 ```
-@misc{wulff2025jointactionlanguagemodelling,
-    title={Joint Action Language Modelling for Transparent Policy Execution},
-    author={Theodor Wulff and Rahul Singh Maharjan and Xinyun Chi and Angelo Cangelosi},
-    year={2025},
-    eprint={2504.10055},
-    archivePrefix={arXiv},
-    primaryClass={cs.RO},
-    url={https://arxiv.org/abs/2504.10055},
-}
+@INPROCEEDINGS{wulff2025jointactionlanguagemodelling,
+  author={Wulff, Theodor and Maharjan, Rahul Singh and Chi, Xinyun and Cangelosi, Angelo},
+  booktitle={2025 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={Joint Action Language Modelling for Transparent Policy Execution}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Analytical models;Natural languages;Neural networks;Closed box;Trajectory;Robots;Behavior Transparency;Vision Language Action Models;Robotics},
+  doi={10.1109/IJCNN64981.2025.11229330}}
 ```
